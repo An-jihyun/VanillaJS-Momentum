@@ -21,6 +21,10 @@
   font-size: 30px;
 }
 
+#todo-header i:hover {
+  font-size: 25px;
+}
+
 #todo-form {
   display: flex;
   justify-content: center;
@@ -45,6 +49,8 @@
 
 #todo-form input:focus {
   outline: none;
+  transition: color 1s linear;
+  color: aqua;
 }
 
 #todo-list {
@@ -76,5 +82,9 @@
 }
 
 #todo-list button:focus {
-  color: navy;
+  transition: aqua;
+}
+
+#todo-list button:hover {
+  color: aqua;
 }

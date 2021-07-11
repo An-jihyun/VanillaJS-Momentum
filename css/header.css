@@ -15,8 +15,7 @@ header#menu {
   font-size: 30px;
   justify-content: space-between;
 }
-
-#menu--i {
+/*#menu--i {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +23,7 @@ header#menu {
   width: 50px;
   border: 3px solid;
   border-radius: 50%;
-}
+}*/
 
 #menu--i--iBtn {
   font-size: 30px;
@@ -40,6 +39,14 @@ header#menu {
   border-radius: 50%;
 }
 
-#todo {
-  background-color: cornflowerblue;
+#menu--i--iBtn:hover {
+  font-size: 25px;
+}
+
+#clock:hover {
+  font-size: 25px;
+}
+
+#weather:hover {
+  font-size: 25px;
 }

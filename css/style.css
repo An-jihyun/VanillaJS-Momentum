@@ -25,7 +25,6 @@ main {
 #bgImg {
   display: flex;
   justify-content: center;
-  text-align: center;
   align-items: center;
   height: 100%;
   width: 100%;
@@ -37,6 +36,7 @@ img {
   width: 100%;
   max-width: 500px;
   border-radius: 50%;
+  box-shadow: 10px 10px 30px rgb(255, 255, 255);
 }
 
 #login {
@@ -61,6 +61,8 @@ img {
 
 #login-form input:focus {
   outline: none;
+  color: aqua;
+  transition: color 1s ease-in-out;
 }
 
 #login-form input::placeholder {
@@ -69,7 +71,8 @@ img {
 
 #login span {
   font-size: 40px;
-  color: white;
+
   font-weight: 200;
   font-family: "Tourney", cursive; /*, "Black Han Sans", sans-serif*/
+  color: white;
 }
