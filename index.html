@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/9559f47415.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tourney:wght@200;600;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Tourney:wght@200;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/quote.css" />
+    <link rel="stylesheet" href="css/todo.css" />
+    <title>Momentum :)</title>
+  </head>
+  <body>
+    <header id="menu">
+      <div>
+        <span id="clock">00:00:00</span>
+        <div id="weather">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="menu--i">
+        <button id="menu--i--iBtn"><i class="fas fa-bars"></i></button>
+      </div>
+    </header>
+    <main>
+      <section id="login">
+        <form id="login-form" class="hidden">
+          <input
+            required
+            maxlength="15"
+            minlength="1"
+            type="text"
+            placeholder="What is your name?"
+          />
+          <!--<input type="submit" value="Log In" />-->
+        </form>
+        <span id="greeting"></span>
+      </section>
+
+      <section id="bgImg">
+        <img />
+      </section>
+
+      <section id="todo">
+        <header id="todo-header">
+          <i id="closeBtn" class="fas fa-chevron-left"></i>
+        </header>
+        <form id="todo-form">
+          <input required type="text" placeholder=" WRITE TO DO :)" />
+        </form>
+        <ul id="todo-list"></ul>
+      </section>
+
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+    </main>
+    <script src="js/header.js"></script>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

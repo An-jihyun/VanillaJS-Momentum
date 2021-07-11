@@ -1,0 +1,75 @@
+.hidden {
+  display: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #130f40;
+  overflow: hidden;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#bgImg {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 50%;
+}
+
+#login {
+  position: absolute;
+  left: 17%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#login-form input {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid;
+  color: white;
+  width: 403px;
+  font-size: 40px;
+  padding-bottom: 5px;
+  font-family: "Tourney", cursive;
+  font-weight: 200;
+}
+
+#login-form input:focus {
+  outline: none;
+}
+
+#login-form input::placeholder {
+  color: white;
+}
+
+#login span {
+  font-size: 40px;
+  color: white;
+  font-weight: 200;
+  font-family: "Tourney", cursive; /*, "Black Han Sans", sans-serif*/
+}

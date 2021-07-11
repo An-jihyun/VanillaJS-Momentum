@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header#menu {
+  position: absolute;
+  width: 100%;
+  color: white;
+  display: flex;
+  padding: 15px;
+  font-family: "Tourney", cursive;
+  font-weight: 900;
+  font-size: 30px;
+  justify-content: space-between;
+}
+
+#menu--i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border: 3px solid;
+  border-radius: 50%;
+}
+
+#menu--i--iBtn {
+  font-size: 30px;
+  border: 0;
+  background: none;
+  outline: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+#todo {
+  background-color: cornflowerblue;
+}
